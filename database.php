@@ -3,7 +3,7 @@
     class Movie{
         public $title;
         public $author;
-        public int $year;
+        public $year;
 
         function __construct($title, $author, $year){
             $this->title = $title;
